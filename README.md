@@ -31,13 +31,17 @@ First and foremost, make a backup of the original file!
 
 Now, apply the patch to your copy and output as the filename that will launch with the game. Be sure to use the path to the patch file and not the example text!
 
-`x64/# bspatch FFXII_TZA.original.exe FFXII_TZA.exe \path\to\TZA_psbuttons.bsdiff`
+`x64/# bspatch FFXII_TZA.original.exe FFXII_TZA.exe /path/to/TZA_psbuttons.bsdiff`
 
 You can move or copy the patched `FFXII_TZA.exe` to any device you want to run the game on with Playstation button prompts, so you do not need to worry about trying to do this process on a Steam Deck or something like that.
 
 ## Can I modify or do whatever with this patch?
 
 Yes! Even if you're a weird freak that wants to do some thing something gross, like force XBox buttons. 😄 It shouldn't be difficult to find and use modifications to make software accessible and usable for you, especially when lack of accessibility should not exist in the first place. I am also willing to consider any pull requests for extra functionality, or a much less manual method for applying this patch. You can also just fork this repo and do whatever.
+
+## What version of the game does this patch work for?
+
+There was a small update to patch 1.0.4.0 on August 24, 2020 which was nearly four years ago as of the writing of these instructions. In the unlikely event that the game is updated again, this patch may not work, so please keep that in mind.
 
 ## Warranty
 
