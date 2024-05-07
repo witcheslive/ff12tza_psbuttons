@@ -21,6 +21,8 @@ This patch modifies one instruction in the Final Fantasy XII executable at addre
 
 You will need to use the open source patching tool bsdiff to patch the executable file. Your package manager should have this available in any distro. I do not use Windows so I do not know how to use it in Windows, but I believe there is a way to do so. You can apply this patch on one computer and copy the executable to the device running it, which is great for devices like the Steam Deck, and exactly how I created this patch in the first place.
 
+I have not tried it but [this tool might be able to do it from your web browser.](https://kairi003.github.io/bsdiff-wasm/) You will not need to follow the instructions below to use this, but will need to locate the `FFXII_TZA.exe` file to send to this tool, then replace the original executable with the output. I highly recommend renaming the old one to keep it as backup, then dropping in the patched version.
+
 You will need to modify the `FFXII_TZA.exe` file in the `x64` folder of your Steam install for The Zodiac Age. On the Steam Deck, this is generally located at:
 
 `/home/deck/.local/share/Steam/steamapps/common/FINAL FANTASY XII THE ZODIAC AGE/x64/FFXII_TZA.exe`
